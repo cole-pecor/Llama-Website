@@ -1,0 +1,242 @@
+header {
+	background-color: #00b4e4;
+	height: 100px;
+	margin: -10px -10px 0 -10px;
+}
+
+/*Place logo in top left*/
+.logo img:first-child {
+	float: left;
+	height: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: -20px;
+}
+
+/*configure nav bar*/
+#navbarUl {
+	text-align: right;
+	list-style-type: none;
+	padding: 30px 20px 0 0;
+	margin: 0;
+	color: white;
+	font-size: 1.6em;
+	font-family: Oswald;
+}
+
+.navbarLi {
+	display: inline;
+	margin: 0 25px 0 0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.blacktext {
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* End of navigation bar styling, start body*/
+
+h1, h2{
+	font-family: oswald;
+}
+
+h1, h2, h3, p {
+	margin: 0 20px 20px 10px;
+	padding: 0;
+}
+
+.space {
+	margin-top: 20px;
+}
+
+#background {
+}
+
+main {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	max-width: 950px;
+	background-color: white;
+	padding: 0;
+}
+
+.imgDiv img {
+	width: 50%;
+	margin:0;
+	padding: 0;
+}
+
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	padding: 0;
+	margin: auto;
+}
+
+.cropped { /*make sure the set size of the image doesn't effect aspect ratio*/
+	max-height: 450px;
+	overflow: hidden;
+}
+
+img[src="media/Llama2.jpeg"]{
+	float: right;
+	width: 70%;
+	margin-top: 0;
+	margin-left: 0px;
+}
+
+.funfacts {
+	background-color: #00b4e4;
+	overflow: hidden;
+}
+
+.facts {
+	font-size: 1.5em;
+	color: white;
+	margin: 10px;
+}
+
+.attention {
+	color: white;
+	font-weight: bold;
+}
+
+
+/* Footer styling*/
+footer {
+	background-color: #00b4e4;
+	height: 75px;
+	margin: 15px -10px -10px -10px;
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Abilities page*/
+
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subPara {
+	margin-left:15%;
+	margin-right:15%;
+	margin-top: -10px;
+	text-align: center;
+}
+
+hr {
+	border-top: 3px solid gray;
+}
+
+.container {
+	margin-top: 15px;
+	margin-bottom: 40px;
+	min-width: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.flexP {
+	width: 55%;
+	min-width: 55%;
+	padding-right: 20px;
+}
+
+.flexPr {
+	width: 55%;
+	min-width:55%;
+	padding-left: 20px;
+}
+
+img[src="LlamaPack.jpg"]{
+	padding: 0;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Communication page*/
+
+.warning {
+	color: red;
+}
+
+iframe{
+	border: none;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Newsletter page*/
+
+.subform .label {
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.subform input[type="button"] {
+	display: block;
+	background-color: #00b4e4;
+	border: none;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px 25px;
+}
+
+.subform input[type="button"]:hover {
+	text-decoration: underline;
+}
+
+.containerForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	border: solid #00b4e4;
+	padding: 10px;
+	margin: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*History page*/
+
+/*get footer to stay at bottom of page*/
+.bottom{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*submit page*/
+
+.subtext{
+	font-size: .7em;
+	margin-top: 0;
+}
